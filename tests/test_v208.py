@@ -26,3 +26,14 @@ def test_release_documentation(mutation):
     else:
         with pytest.raises(ValueError):
             module.verify_documentation('2.0.10', readme, descriptions, archived)
+
+
+@pytest.mark.parametrize('metadata_crlf,sdist_crlf', [(True, False), (False, True), (True, True)])
+def test_release_documentation_platform_newlines(metadata_crlf, sdist_crlf):
+    spec = importlib.util.spec_from_file_location('release_docs_newlines', Path(__file__).parents[1] / 'docs/verify_release.py')
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    readme = '# MolFuzzy 2.0.10\n\nResearch toolkit.\n'
+    metadata = readme.replace('\n', '\r\n') if metadata_crlf else readme
+    archived = readme.replace('\n', '\r\n') if sdist_crlf else readme
+    module.verify_documentation('2.0.10', readme, [metadata, metadata], archived)
