@@ -14,5 +14,5 @@ not this run. The complete validation/ inventory is frozen into the rebuilt sdis
 
 Current rebuilt-wheel test and packaging logs are in release-validation/ in the
 full ZIP, outside the sdist to avoid self-referential builds. Supplied post-build
-logs remain in release-validation/historical/. Windows and macOS execution is
-still unverified. There is no successful remote CI assertion.
+logs remain in release-validation/historical/. These bundled local logs do not include Windows or macOS. Remote CI outcomes
+are recorded separately in the public repository.
