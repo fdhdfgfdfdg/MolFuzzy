@@ -1,0 +1,7 @@
+Public repository metadata: PASS
+Citation File Format 1.2.0 full schema: PASS
+Source, wheel and sdist release verification: PASS
+Rebuilt publication wheel: 249 tests and CLI JSON PASS (Linux/Python 3.12.14/NumPy 2.3.5)
+Computational modules unchanged from reviewed package: PASS
+License retained: MIT
+Public archive registration: pending

@@ -1,0 +1,4 @@
+Citation File Format 1.2.0 full schema: PASS
+Names and contact metadata agree across pyproject, CFF, CodeMeta and wheel: PASS
+Computational Python modules and MIT license unchanged from supplied source: PASS
+Provided ORCID identifier check digits: PASS (identity not independently attested)

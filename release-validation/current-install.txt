@@ -1,0 +1,10 @@
+Processing ./mol_publish/source/molfuzzy-2.0.10/distributions/molfuzzy-2.0.10-py3-none-any.whl
+Installing collected packages: molfuzzy
+  Attempting uninstall: molfuzzy
+    Found existing installation: molfuzzy 2.0.10
+    Uninstalling molfuzzy-2.0.10:
+      Successfully uninstalled molfuzzy-2.0.10
+Successfully installed molfuzzy-2.0.10
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: python -m pip install --upgrade pip

@@ -1,0 +1,206 @@
+running egg_info
+creating molfuzzy.egg-info
+writing molfuzzy.egg-info/PKG-INFO
+writing dependency_links to molfuzzy.egg-info/dependency_links.txt
+writing entry points to molfuzzy.egg-info/entry_points.txt
+writing requirements to molfuzzy.egg-info/requires.txt
+writing top-level names to molfuzzy.egg-info/top_level.txt
+writing manifest file 'molfuzzy.egg-info/SOURCES.txt'
+reading manifest file 'molfuzzy.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'molfuzzy.egg-info/SOURCES.txt'
+running sdist
+running egg_info
+writing molfuzzy.egg-info/PKG-INFO
+writing dependency_links to molfuzzy.egg-info/dependency_links.txt
+writing entry points to molfuzzy.egg-info/entry_points.txt
+writing requirements to molfuzzy.egg-info/requires.txt
+writing top-level names to molfuzzy.egg-info/top_level.txt
+reading manifest file 'molfuzzy.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'molfuzzy.egg-info/SOURCES.txt'
+running check
+creating molfuzzy-2.0.10
+creating molfuzzy-2.0.10/.github/workflows
+creating molfuzzy-2.0.10/docs
+creating molfuzzy-2.0.10/docs/figures
+creating molfuzzy-2.0.10/examples
+creating molfuzzy-2.0.10/molfuzzy
+creating molfuzzy-2.0.10/molfuzzy.egg-info
+creating molfuzzy-2.0.10/tests
+creating molfuzzy-2.0.10/validation
+copying files to molfuzzy-2.0.10...
+copying AUTHORS.md -> molfuzzy-2.0.10
+copying CHANGELOG.md -> molfuzzy-2.0.10
+copying CITATION.cff -> molfuzzy-2.0.10
+copying LICENSE -> molfuzzy-2.0.10
+copying MANIFEST.in -> molfuzzy-2.0.10
+copying README.md -> molfuzzy-2.0.10
+copying codemeta.json -> molfuzzy-2.0.10
+copying pyproject.toml -> molfuzzy-2.0.10
+copying requirements-validation-py312.txt -> molfuzzy-2.0.10
+copying requirements-validation-py39.txt -> molfuzzy-2.0.10
+copying requirements.txt -> molfuzzy-2.0.10
+copying .github/workflows/tests.yml -> molfuzzy-2.0.10/.github/workflows
+copying docs/AUDIT_RESPONSE_2.0.10_zh.md -> molfuzzy-2.0.10/docs
+copying docs/AUDIT_RESPONSE_2.0.1_zh.md -> molfuzzy-2.0.10/docs
+copying docs/AUDIT_RESPONSE_2.0.2_zh.md -> molfuzzy-2.0.10/docs
+copying docs/AUDIT_RESPONSE_2.0.3_zh.md -> molfuzzy-2.0.10/docs
+copying docs/AUDIT_RESPONSE_2.0.4_zh.md -> molfuzzy-2.0.10/docs
+copying docs/AUDIT_RESPONSE_2.0.5_zh.md -> molfuzzy-2.0.10/docs
+copying docs/AUDIT_RESPONSE_2.0.6_zh.md -> molfuzzy-2.0.10/docs
+copying docs/AUDIT_RESPONSE_2.0.7_zh.md -> molfuzzy-2.0.10/docs
+copying docs/AUDIT_RESPONSE_2.0.8_zh.md -> molfuzzy-2.0.10/docs
+copying docs/AUDIT_RESPONSE_2.0.9_zh.md -> molfuzzy-2.0.10/docs
+copying docs/AUDIT_RESPONSE_zh.md -> molfuzzy-2.0.10/docs
+copying docs/CROSS_PLATFORM_VALIDATION.md -> molfuzzy-2.0.10/docs
+copying docs/build_release.py -> molfuzzy-2.0.10/docs
+copying docs/make_figures.py -> molfuzzy-2.0.10/docs
+copying docs/reproduce.py -> molfuzzy-2.0.10/docs
+copying docs/run_ci_validation.py -> molfuzzy-2.0.10/docs
+copying docs/verify_installed.py -> molfuzzy-2.0.10/docs
+copying docs/verify_release.py -> molfuzzy-2.0.10/docs
+copying docs/figures/fig1_case.png -> molfuzzy-2.0.10/docs/figures
+copying docs/figures/fig2_consensus.png -> molfuzzy-2.0.10/docs/figures
+copying docs/figures/fig3_traversal.png -> molfuzzy-2.0.10/docs/figures
+copying examples/interop_pymcdm_example.py -> molfuzzy-2.0.10/examples
+copying examples/lean_energy_case_study.py -> molfuzzy-2.0.10/examples
+copying examples/lean_energy_scenario.json -> molfuzzy-2.0.10/examples
+copying molfuzzy/__init__.py -> molfuzzy-2.0.10/molfuzzy
+copying molfuzzy/__main__.py -> molfuzzy-2.0.10/molfuzzy
+copying molfuzzy/aco.py -> molfuzzy-2.0.10/molfuzzy
+copying molfuzzy/balancing.py -> molfuzzy-2.0.10/molfuzzy
+copying molfuzzy/cli.py -> molfuzzy-2.0.10/molfuzzy
+copying molfuzzy/cognitive_map.py -> molfuzzy-2.0.10/molfuzzy
+copying molfuzzy/data.py -> molfuzzy-2.0.10/molfuzzy
+copying molfuzzy/lom.py -> molfuzzy-2.0.10/molfuzzy
+copying molfuzzy/mfv.py -> molfuzzy-2.0.10/molfuzzy
+copying molfuzzy/pipeline.py -> molfuzzy-2.0.10/molfuzzy
+copying molfuzzy/qlearning.py -> molfuzzy-2.0.10/molfuzzy
+copying molfuzzy/ranking.py -> molfuzzy-2.0.10/molfuzzy
+copying molfuzzy/sensitivity.py -> molfuzzy-2.0.10/molfuzzy
+copying molfuzzy/validation.py -> molfuzzy-2.0.10/molfuzzy
+copying molfuzzy.egg-info/PKG-INFO -> molfuzzy-2.0.10/molfuzzy.egg-info
+copying molfuzzy.egg-info/SOURCES.txt -> molfuzzy-2.0.10/molfuzzy.egg-info
+copying molfuzzy.egg-info/dependency_links.txt -> molfuzzy-2.0.10/molfuzzy.egg-info
+copying molfuzzy.egg-info/entry_points.txt -> molfuzzy-2.0.10/molfuzzy.egg-info
+copying molfuzzy.egg-info/requires.txt -> molfuzzy-2.0.10/molfuzzy.egg-info
+copying molfuzzy.egg-info/top_level.txt -> molfuzzy-2.0.10/molfuzzy.egg-info
+copying tests/test_v2.py -> molfuzzy-2.0.10/tests
+copying tests/test_v201.py -> molfuzzy-2.0.10/tests
+copying tests/test_v202.py -> molfuzzy-2.0.10/tests
+copying tests/test_v203.py -> molfuzzy-2.0.10/tests
+copying tests/test_v204.py -> molfuzzy-2.0.10/tests
+copying tests/test_v205.py -> molfuzzy-2.0.10/tests
+copying tests/test_v206.py -> molfuzzy-2.0.10/tests
+copying tests/test_v207.py -> molfuzzy-2.0.10/tests
+copying tests/test_v208.py -> molfuzzy-2.0.10/tests
+copying tests/test_v209.py -> molfuzzy-2.0.10/tests
+copying tests/test_v210.py -> molfuzzy-2.0.10/tests
+copying validation/EVIDENCE_SCOPE.md -> molfuzzy-2.0.10/validation
+copying validation/build.txt -> molfuzzy-2.0.10/validation
+copying validation/current-install.txt -> molfuzzy-2.0.10/validation
+copying validation/current-wheel-tests.txt -> molfuzzy-2.0.10/validation
+copying validation/environment.txt -> molfuzzy-2.0.10/validation
+copying validation/historical-2.0.7-results.json -> molfuzzy-2.0.10/validation
+copying validation/historical-environment.txt -> molfuzzy-2.0.10/validation
+copying validation/lower-install.txt -> molfuzzy-2.0.10/validation
+copying validation/lower-wheel-tests.txt -> molfuzzy-2.0.10/validation
+copying validation/pytest.txt -> molfuzzy-2.0.10/validation
+copying validation/pytest.xml -> molfuzzy-2.0.10/validation
+copying validation/release-checks.txt -> molfuzzy-2.0.10/validation
+copying validation/reproduce-current.txt -> molfuzzy-2.0.10/validation
+copying validation/reproduce.txt -> molfuzzy-2.0.10/validation
+copying validation/results.json -> molfuzzy-2.0.10/validation
+copying validation/source-209.txt -> molfuzzy-2.0.10/validation
+copying validation/source-210.txt -> molfuzzy-2.0.10/validation
+Writing molfuzzy-2.0.10/setup.cfg
+Creating tar archive
+removing 'molfuzzy-2.0.10' (and everything under it)
+running egg_info
+writing molfuzzy.egg-info/PKG-INFO
+writing dependency_links to molfuzzy.egg-info/dependency_links.txt
+writing entry points to molfuzzy.egg-info/entry_points.txt
+writing requirements to molfuzzy.egg-info/requires.txt
+writing top-level names to molfuzzy.egg-info/top_level.txt
+reading manifest file 'molfuzzy.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'molfuzzy.egg-info/SOURCES.txt'
+running bdist_wheel
+running build
+running build_py
+creating build/lib/molfuzzy
+copying molfuzzy/ranking.py -> build/lib/molfuzzy
+copying molfuzzy/__main__.py -> build/lib/molfuzzy
+copying molfuzzy/lom.py -> build/lib/molfuzzy
+copying molfuzzy/sensitivity.py -> build/lib/molfuzzy
+copying molfuzzy/balancing.py -> build/lib/molfuzzy
+copying molfuzzy/mfv.py -> build/lib/molfuzzy
+copying molfuzzy/data.py -> build/lib/molfuzzy
+copying molfuzzy/validation.py -> build/lib/molfuzzy
+copying molfuzzy/aco.py -> build/lib/molfuzzy
+copying molfuzzy/cli.py -> build/lib/molfuzzy
+copying molfuzzy/cognitive_map.py -> build/lib/molfuzzy
+copying molfuzzy/__init__.py -> build/lib/molfuzzy
+copying molfuzzy/qlearning.py -> build/lib/molfuzzy
+copying molfuzzy/pipeline.py -> build/lib/molfuzzy
+running egg_info
+writing molfuzzy.egg-info/PKG-INFO
+writing dependency_links to molfuzzy.egg-info/dependency_links.txt
+writing entry points to molfuzzy.egg-info/entry_points.txt
+writing requirements to molfuzzy.egg-info/requires.txt
+writing top-level names to molfuzzy.egg-info/top_level.txt
+reading manifest file 'molfuzzy.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'molfuzzy.egg-info/SOURCES.txt'
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/molfuzzy
+copying build/lib/molfuzzy/ranking.py -> build/bdist.linux-x86_64/wheel/./molfuzzy
+copying build/lib/molfuzzy/__main__.py -> build/bdist.linux-x86_64/wheel/./molfuzzy
+copying build/lib/molfuzzy/lom.py -> build/bdist.linux-x86_64/wheel/./molfuzzy
+copying build/lib/molfuzzy/sensitivity.py -> build/bdist.linux-x86_64/wheel/./molfuzzy
+copying build/lib/molfuzzy/balancing.py -> build/bdist.linux-x86_64/wheel/./molfuzzy
+copying build/lib/molfuzzy/mfv.py -> build/bdist.linux-x86_64/wheel/./molfuzzy
+copying build/lib/molfuzzy/data.py -> build/bdist.linux-x86_64/wheel/./molfuzzy
+copying build/lib/molfuzzy/validation.py -> build/bdist.linux-x86_64/wheel/./molfuzzy
+copying build/lib/molfuzzy/aco.py -> build/bdist.linux-x86_64/wheel/./molfuzzy
+copying build/lib/molfuzzy/cli.py -> build/bdist.linux-x86_64/wheel/./molfuzzy
+copying build/lib/molfuzzy/cognitive_map.py -> build/bdist.linux-x86_64/wheel/./molfuzzy
+copying build/lib/molfuzzy/__init__.py -> build/bdist.linux-x86_64/wheel/./molfuzzy
+copying build/lib/molfuzzy/qlearning.py -> build/bdist.linux-x86_64/wheel/./molfuzzy
+copying build/lib/molfuzzy/pipeline.py -> build/bdist.linux-x86_64/wheel/./molfuzzy
+running install_egg_info
+Copying molfuzzy.egg-info to build/bdist.linux-x86_64/wheel/./molfuzzy-2.0.10-py3.12.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/molfuzzy-2.0.10.dist-info/WHEEL
+creating '/tmp/molfuzzy-release-xtd5vxpr/source/distributions/.tmp-gngfqikc/molfuzzy-2.0.10-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'molfuzzy/__init__.py'
+adding 'molfuzzy/__main__.py'
+adding 'molfuzzy/aco.py'
+adding 'molfuzzy/balancing.py'
+adding 'molfuzzy/cli.py'
+adding 'molfuzzy/cognitive_map.py'
+adding 'molfuzzy/data.py'
+adding 'molfuzzy/lom.py'
+adding 'molfuzzy/mfv.py'
+adding 'molfuzzy/pipeline.py'
+adding 'molfuzzy/qlearning.py'
+adding 'molfuzzy/ranking.py'
+adding 'molfuzzy/sensitivity.py'
+adding 'molfuzzy/validation.py'
+adding 'molfuzzy-2.0.10.dist-info/licenses/LICENSE'
+adding 'molfuzzy-2.0.10.dist-info/METADATA'
+adding 'molfuzzy-2.0.10.dist-info/WHEEL'
+adding 'molfuzzy-2.0.10.dist-info/entry_points.txt'
+adding 'molfuzzy-2.0.10.dist-info/top_level.txt'
+adding 'molfuzzy-2.0.10.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built molfuzzy-2.0.10.tar.gz and molfuzzy-2.0.10-py3-none-any.whl
+Clean release build PASS
