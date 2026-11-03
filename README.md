@@ -1,4 +1,4 @@
-# MolFuzzy 2.0.10
+# MolFuzzy 2.0.11
 
 A Python research toolkit for explicit fuzzy preference scoring, expert-consensus diagnostics, similarity-network criterion weights, and optional angular traversal analysis. MIT licensed. **Beta research software.**
 
@@ -10,7 +10,7 @@ The five historical geometry normalizers cancel in reciprocal column normalizati
 
 ## Installation and quick start
 
-Python >=3.9 and NumPy >=1.24 are declared. Installed wheels are tested locally on Linux with Python 3.12/NumPy 2.3.5 and Python 3.9/NumPy 1.24.0. Windows and macOS are additional CI targets; consult the public workflow results for their current outcomes. NumPy is the only mandatory dependency. From this directory:
+Python >=3.9 and NumPy >=1.24 are declared. Version 2.0.11 passed the installed-wheel test suite on Linux with Python 3.12/NumPy 2.3.5; the recorded Python 3.9/NumPy 1.24.0 run applies to version 2.0.10. Windows and macOS are additional CI targets; consult the public workflow results for their current outcomes. NumPy is the only mandatory dependency. From this directory:
 
 ```bash
 python -m pip install .
@@ -84,13 +84,13 @@ python docs/make_figures.py
 python -m build
 ```
 
-`validation/results.json` contains full case outputs, 15 geometry/rate cases, 100 perturbation trials, three leave-one-out cases, 100 heuristic seeds, and measured host timings. `validation/pytest.*` retains the supplied historical test run; current rebuilt-wheel test logs are in `release-validation/`. See `docs/AUDIT_RESPONSE_zh.md` for all 14 audit responses and `CHANGELOG.md` for migration. Tests cover all 24 criterion permutations, expert/alternative permutations, utility dominance and cost direction, near-duplicate vectors, invalid inputs, convergence caps, CLI JSON, and exhaustive traversal comparison. Passing them supports implementation properties, not domain validity.
+`validation/results.json` contains full case outputs, 15 geometry/rate cases, 100 perturbation trials, three leave-one-out cases, 100 heuristic seeds, and measured host timings. `validation/pytest.*` retains the supplied historical test run; the 2.0.10 rebuilt-wheel test logs are in `release-validation/`. See `docs/AUDIT_RESPONSE_zh.md` for all 14 audit responses and `CHANGELOG.md` for migration. Tests cover all 24 criterion permutations, expert/alternative permutations, utility dominance and cost direction, near-duplicate vectors, invalid inputs, convergence caps, CLI JSON, and exhaustive traversal comparison. Passing them supports implementation properties, not domain validity.
 
 The optional `examples/interop_pymcdm_example.py` adapter requires `pip install '.[interop]'`. It demonstrates TOPSIS comparison; agreement is not proof of correctness and disagreement is not a bug in either method. The optional adapter is outside the recorded core test run.
 
 ## Scope and publication status
 
-The reviewed 2.0.10 source is hosted at https://github.com/fdhdfgfdfdg/MolFuzzy. The frozen v2.0.10 release is public at https://github.com/fdhdfgfdfdg/MolFuzzy/releases/tag/v2.0.10. Its source revision 87731b4ba51614e31603f4a80e4e103c73a211c3 is permanently archived in Software Heritage as [swh:1:rev:87731b4ba51614e31603f4a80e4e103c73a211c3](https://archive.softwareheritage.org/browse/revision/87731b4ba51614e31603f4a80e4e103c73a211c3/). All six OS/Python CI jobs passed for that revision: https://github.com/fdhdfgfdfdg/MolFuzzy/actions/runs/41586307222. The main branch includes post-release citation annotations; use tag v2.0.10 and its attached ZIP for the fixed archived release. The public upstream repository contains version 1.0.0 and must not be cited as the 2.0.10 release. Current authors and support contacts are recorded in AUTHORS.md, CITATION.cff, codemeta.json and package metadata. `CITATION.cff` identifies the software and version without claiming a published SoftwareX article. The case matrices are retained from v1 as an illustrative fixture; their original empirical provenance is not independently verified. No external adoption, operational manufacturing benefit, superiority over competing libraries, or broad clinical suitability is claimed.
+Version 2.0.11 is a documentation and packaging correction to version 2.0.10. The software code is unchanged apart from its version identifier. The Zenodo archive for all versions is https://doi.org/10.5281/zenodo.23912806; the archived 2.0.10 version is https://doi.org/10.5281/zenodo.23912807. The upstream repository is https://github.com/fdhdfgfdfdg/MolFuzzy; use the Zenodo archive for the fixed 2.0.11 release. Current authors and support contacts are recorded in AUTHORS.md, CITATION.cff, codemeta.json and package metadata. The case matrices are retained from v1 as an illustrative fixture; their original empirical provenance is not independently verified. No external adoption, operational manufacturing benefit, superiority over competing libraries, or broad clinical suitability is claimed.
 
 ## 2.0.1 safety and compatibility changes
 
@@ -106,7 +106,7 @@ The reviewed 2.0.10 source is hosted at https://github.com/fdhdfgfdfdg/MolFuzzy.
 
 Build with `python -m build`, install the resulting wheel in a clean environment with NumPy and pytest, and run `python docs/verify_installed.py` with that environment's interpreter. The script copies tests and examples to an external temporary directory, verifies the imported module is installed in site-packages, runs the complete test suite and checks CLI JSON. CI supplies Linux/Windows/macOS and Python 3.9/3.12 jobs, including NumPy 1.24.0 on Linux/Python 3.9; CI configuration alone is not evidence that those remote jobs ran.
 
-The recorded local release runs use Linux/Python 3.12 with NumPy 2.3.5 and an isolated Linux/Python 3.9 environment with NumPy 1.24.0. See `release-validation/*wheel-tests.txt` in the complete ZIP for current installed-wheel outcomes. New sensitivity evidence is in `validation/results.json` under `parameter_sensitivity`; one baseline and 20 one-factor scenarios are recorded. Simplex-vertex scenarios are stress tests, not probability statements.
+The 2.0.10 release was tested on Linux/Python 3.12 with NumPy 2.3.5 and Linux/Python 3.9 with NumPy 1.24.0; those logs remain historical. Version 2.0.11 passed the installed-wheel tests on Linux/Python 3.12 with NumPy 2.3.5. New sensitivity evidence is in `validation/results.json` under `parameter_sensitivity`; one baseline and 20 one-factor scenarios are recorded. Simplex-vertex scenarios are stress tests, not probability statements.
 
 
 ## 2.0.4 diagnostics and reproducibility
@@ -137,7 +137,7 @@ python docs/reproduce.py
 python docs/make_figures.py
 ```
 
-The additional 2.0.4 audit mapping is in `docs/AUDIT_RESPONSE_2.0.4_zh.md`. Current results and test counts are in `validation/`; older audit mappings describe their original release scope.
+The additional 2.0.4 audit mapping is in `docs/AUDIT_RESPONSE_2.0.4_zh.md`. Results and test counts in `validation/` retain their stated version; older audit mappings describe their original release scope.
 
 
 ## Version 2.0.4: failure-aware scans and strict export
@@ -232,8 +232,8 @@ The current README title, package version and distribution descriptions are chec
 
 | Platform | Python | NumPy | Evidence status |
 | --- | --- | --- | --- |
-| Linux | 3.12 | 2.3.5 | Installed-wheel suite and CLI passed; release-validation/current-wheel-tests.txt |
-| Linux | 3.9 | 1.24.0 | Installed-wheel suite and CLI passed; release-validation/lower-wheel-tests.txt |
+| Linux | 3.12 | 2.3.5 | Installed-wheel suite and CLI passed for 2.0.11; earlier logs are for 2.0.10 |
+| Linux | 3.9 | 1.24.0 | Installed-wheel suite and CLI passed for 2.0.10; release-validation/lower-wheel-tests.txt |
 | Windows | 3.9 and 3.12 | Resolver-selected | See public CI results; bundled wheel logs cover Linux |
 | macOS | 3.9 and 3.12 | Resolver-selected | See public CI results; bundled wheel logs cover Linux |
 
@@ -243,7 +243,7 @@ The workflow supports manual dispatch and retains logs plus actual runtime versi
 
 CITATION.cff identifies version 2.0.9 and preparation date 2026-10-22; public publication remains pending. Release verification checks its version and ISO date, and compares its archived bytes.
 
-The sdist contains the frozen validation/ evidence snapshot, including EVIDENCE_SCOPE.md. Numerical results retain their recorded 2.0.7 provenance; earlier installed-wheel logs are explicitly historical. Current source tests are recorded in validation/source-209.txt. The complete ZIP additionally carries release-validation/ with current installed-wheel and packaging results produced after the distributions are built. These post-build logs are deliberately outside the sdist to avoid a self-referential build. The wheel supplies executable code and package metadata, not the evidence bundle.
+The sdist contains the frozen validation/ evidence snapshot, including EVIDENCE_SCOPE.md. Numerical results retain their recorded 2.0.7 provenance; earlier installed-wheel logs are explicitly historical. Version 2.0.9 source tests are recorded in validation/source-209.txt. The complete ZIP additionally carries release-validation/ with historical installed-wheel and packaging results. These post-build logs are deliberately outside the sdist to avoid a self-referential build. The wheel supplies executable code and package metadata, not the evidence bundle.
 
 CI builds to distributions/ and runs docs/verify_release.py before installation tests. The gate checks source and sdist citation metadata and the complete validation/ file inventory and bytes. CI logs remain in Actions artifacts, not in the frozen source snapshot.
 
@@ -253,7 +253,7 @@ Release checks parse the complete CITATION.cff using PyYAML SafeLoader, reject d
 
 PyYAML>=6 is a development/release-check dependency (already in the dev extra), not a core runtime dependency. Install with `python -m pip install ".[dev]"` before running the full tests or `python docs/verify_release.py`. CI installs PyYAML explicitly.
 
-Current 2.0.10 source tests are in validation/source-210.txt; current installed-wheel logs are in release-validation/ in the full ZIP. Older evidence retains its original version and scope.
+Version 2.0.10 source tests are in validation/source-210.txt; its installed-wheel logs are in release-validation/ in the full ZIP. Older evidence retains its original version and scope.
 
 
 ## Current authors and support
@@ -266,15 +266,13 @@ Full affiliations, contributions and upstream credit are in AUTHORS.md.
 For a support request include the software version, Python/NumPy versions,
 operating system, command, minimal input and expected/actual output.
 
-## Current reproducibility record
+## Version 2.0.10 reproducibility record
 
 The numerical record and figures were regenerated for 2.0.10 on 3 November 2026
 with Python 3.12.14 and NumPy 2.3.5. The base ranking, 80/100 unchanged full
 rankings and 77/100 optimal heuristic costs reproduce the supplied results.
-Current timings belong to this host and are not a speed comparison with older
-measurements. EVIDENCE_SCOPE.md distinguishes current and historical records.
+Those timings belong to the recorded host and are not a speed comparison with older measurements. EVIDENCE_SCOPE.md distinguishes current and historical records.
 The current runtime lock files in requirements-validation-py312.txt and
 requirements-validation-py39.txt record exact validation dependencies, separate
 from the supported lower-bound dependency declaration in pyproject.toml.
-The software version is unchanged because the computational modules are
-unchanged; this preparation fills author metadata and renews validation evidence.
+Version 2.0.11 changes the runtime version identifiers and documentation, preserving the computational algorithms; the 2.0.10 numerical record remains historical evidence.

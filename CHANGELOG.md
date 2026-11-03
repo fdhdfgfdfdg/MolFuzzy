@@ -1,3 +1,8 @@
+## 2.0.11 — 2026-11-03
+
+- Correct release and archival descriptions and rebuild distribution metadata.
+- Preserve computational code and numerical evidence from version 2.0.10; update the software version identifier.
+
 ## 2.0.10
 
 - Publication preflight: canonicalize document line endings in release checks, retain byte-exact module/evidence comparisons, enforce LF text checkouts, and run the Python 3.9 Linux job on Ubuntu 22.04. Add three platform-newline regressions; computational modules remain unchanged.
