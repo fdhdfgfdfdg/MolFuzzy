@@ -1,0 +1,8 @@
+Using Python 3.9.25 environment at: .lower206
+Resolved 1 package in 2ms
+Prepared 1 package in 0.81ms
+Uninstalled 2 packages in 1ms
+Installed 1 package in 5ms
+ - molfuzzy==2.0.6 (from file:///workspace/scratch/2846ee56b920/release/molfuzzy-2.0.6/distributions/molfuzzy-2.0.6-py3-none-any.whl)
+ - molfuzzy==2.0.7 (from file:///workspace/scratch/2846ee56b920/release/molfuzzy-2.0.7/distributions/molfuzzy-2.0.7-py3-none-any.whl)
+ + molfuzzy==2.0.8 (from file:///workspace/scratch/2846ee56b920/release/molfuzzy-2.0.8/distributions/molfuzzy-2.0.8-py3-none-any.whl)

@@ -1,0 +1,6154 @@
+Criterion weights:
+  EE: 0.251151
+  ADC: 0.249461
+  EC: 0.248797
+  PM: 0.250591
+Preference ranking (equal signs denote ties): SMRT > SCH > AI > MNT > JTM
+Scores: SMRT=0.872593, SCH=0.852072, AI=0.806339, MNT=0.791333, JTM=0.786419
+Consensus: residual_tolerance; residual=9.07e-07
+Criterion network: fixed_point_residual; residual=4.11e-09
+Angular traversal (not a preference ranking): JTM -> SCH -> MNT -> SMRT -> AI
+Path cost: 0.681851; exact_enumeration
+{
+  "robustness": {
+    "seed": 42,
+    "trials": 100,
+    "perturbation": "one random expert/alternative/criterion linguistic cell moved one adjacent level",
+    "base_rank_groups": [
+      [
+        "SMRT"
+      ],
+      [
+        "SCH"
+      ],
+      [
+        "AI"
+      ],
+      [
+        "MNT"
+      ],
+      [
+        "JTM"
+      ]
+    ],
+    "unchanged_full_rankings": 80,
+    "top_group_inclusion_counts": {
+      "SMRT": 100
+    },
+    "leave_one_expert_out": [
+      {
+        "omitted_expert": 0,
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7592611417690744,
+          0.7373641675065186,
+          0.8499835624177723,
+          0.8344227699244127,
+          0.7968611320384021
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.528176060369375e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.107983730960996e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        },
+        "configuration": {
+          "version": "2.0.10",
+          "geometry": "linear",
+          "geometry_effect": "reference scale cancels in NR",
+          "learning_rate": 0.1,
+          "criterion_weights_used": [
+            0.25025113442921054,
+            0.2505250512478259,
+            0.2479755582146152,
+            0.25124825610834833
+          ],
+          "criterion_weight_source": "network",
+          "criterion_types": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "angle_floor_radians": 1e-06,
+          "tie_tolerance": 1e-10,
+          "balance_tolerance": 1e-06,
+          "balance_max_iterations": 1000,
+          "cognitive_tolerance": 1e-08,
+          "cognitive_max_iterations": 500,
+          "aco_seed": 42,
+          "aco_options": {
+            "alpha": 1.0,
+            "beta": 2.0,
+            "rho": 0.5,
+            "initial_pheromone": 0.1,
+            "max_iterations": 200,
+            "min_iterations": 20,
+            "patience": 30,
+            "improvement_tolerance": 1e-12,
+            "exact_threshold": 8,
+            "keep_log": false
+          },
+          "include_sequence": false,
+          "sequence_execution_status": "disabled",
+          "beta": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "expert_weight_source": "panel agreement heuristic; not validated expertise",
+          "expert_weights_used": [
+            0.5,
+            0.5
+          ],
+          "supplied_expert_weights": null,
+          "reliability_dimensions": null,
+          "input_sha256": "c5465b43b63e08a3763b3d0898fdd186dd55a820501ab036f4bd0769f300f25c",
+          "input_hash_scheme": "ordered scenario fields; sorted-key compact UTF-8 JSON; original linguistic spellings",
+          "environment": {
+            "python": "3.12.14",
+            "numpy": "2.3.5",
+            "platform": "Linux-6.18.57-x86_64-with-glibc2.39"
+          }
+        }
+      },
+      {
+        "omitted_expert": 1,
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.8190385444298836,
+          0.8123422171462613,
+          0.8875858972140478,
+          0.8718023203690903,
+          0.8188730308097412
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.261387131642707e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.162481470615376e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        },
+        "configuration": {
+          "version": "2.0.10",
+          "geometry": "linear",
+          "geometry_effect": "reference scale cancels in NR",
+          "learning_rate": 0.1,
+          "criterion_weights_used": [
+            0.2525372295193187,
+            0.24851465617227195,
+            0.24905910271136975,
+            0.24988901159703955
+          ],
+          "criterion_weight_source": "network",
+          "criterion_types": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "angle_floor_radians": 1e-06,
+          "tie_tolerance": 1e-10,
+          "balance_tolerance": 1e-06,
+          "balance_max_iterations": 1000,
+          "cognitive_tolerance": 1e-08,
+          "cognitive_max_iterations": 500,
+          "aco_seed": 42,
+          "aco_options": {
+            "alpha": 1.0,
+            "beta": 2.0,
+            "rho": 0.5,
+            "initial_pheromone": 0.1,
+            "max_iterations": 200,
+            "min_iterations": 20,
+            "patience": 30,
+            "improvement_tolerance": 1e-12,
+            "exact_threshold": 8,
+            "keep_log": false
+          },
+          "include_sequence": false,
+          "sequence_execution_status": "disabled",
+          "beta": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "expert_weight_source": "panel agreement heuristic; not validated expertise",
+          "expert_weights_used": [
+            0.5,
+            0.5
+          ],
+          "supplied_expert_weights": null,
+          "reliability_dimensions": null,
+          "input_sha256": "bb3a3dd46263badf638a3f04fcbd3c76075062d60a58aa0442fa43dff0cdfb25",
+          "input_hash_scheme": "ordered scenario fields; sorted-key compact UTF-8 JSON; original linguistic spellings",
+          "environment": {
+            "python": "3.12.14",
+            "numpy": "2.3.5",
+            "platform": "Linux-6.18.57-x86_64-with-glibc2.39"
+          }
+        }
+      },
+      {
+        "omitted_expert": 2,
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7969127056937043,
+          0.8124741907071393,
+          0.8813400635100093,
+          0.8501008173820346,
+          0.8031838101395202
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.570323852292617e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.093192229603915e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        },
+        "configuration": {
+          "version": "2.0.10",
+          "geometry": "linear",
+          "geometry_effect": "reference scale cancels in NR",
+          "learning_rate": 0.1,
+          "criterion_weights_used": [
+            0.25084417783263474,
+            0.2493278841197697,
+            0.2495636604121733,
+            0.25026427763542214
+          ],
+          "criterion_weight_source": "network",
+          "criterion_types": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "angle_floor_radians": 1e-06,
+          "tie_tolerance": 1e-10,
+          "balance_tolerance": 1e-06,
+          "balance_max_iterations": 1000,
+          "cognitive_tolerance": 1e-08,
+          "cognitive_max_iterations": 500,
+          "aco_seed": 42,
+          "aco_options": {
+            "alpha": 1.0,
+            "beta": 2.0,
+            "rho": 0.5,
+            "initial_pheromone": 0.1,
+            "max_iterations": 200,
+            "min_iterations": 20,
+            "patience": 30,
+            "improvement_tolerance": 1e-12,
+            "exact_threshold": 8,
+            "keep_log": false
+          },
+          "include_sequence": false,
+          "sequence_execution_status": "disabled",
+          "beta": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "expert_weight_source": "panel agreement heuristic; not validated expertise",
+          "expert_weights_used": [
+            0.5,
+            0.5
+          ],
+          "supplied_expert_weights": null,
+          "reliability_dimensions": null,
+          "input_sha256": "f52f3782448c3257390f405d540a413e66198bd89d2fbac688d7ccec2e7f79f5",
+          "input_hash_scheme": "ordered scenario fields; sorted-key compact UTF-8 JSON; original linguistic spellings",
+          "environment": {
+            "python": "3.12.14",
+            "numpy": "2.3.5",
+            "platform": "Linux-6.18.57-x86_64-with-glibc2.39"
+          }
+        }
+      }
+    ],
+    "criterion_labels": [
+      "EE",
+      "ADC",
+      "EC",
+      "PM"
+    ],
+    "alternative_labels": [
+      "MNT",
+      "JTM",
+      "SMRT",
+      "SCH",
+      "AI"
+    ],
+    "diagnostics": {
+      "scoring_valid": true,
+      "criterion_weight_source": "network",
+      "consensus": {
+        "converged": true,
+        "residual": 9.068662334410504e-07,
+        "stop_reason": "residual_tolerance"
+      },
+      "criterion_network": {
+        "converged": true,
+        "residual": 4.105353834660264e-09,
+        "stop_reason": "fixed_point_residual"
+      },
+      "warnings": []
+    },
+    "configuration": {
+      "version": "2.0.10",
+      "geometry": "linear",
+      "geometry_effect": "reference scale cancels in NR",
+      "learning_rate": 0.1,
+      "criterion_weights_used": [
+        0.251151165976314,
+        0.2494606605108394,
+        0.24879692456695995,
+        0.25059124894588664
+      ],
+      "criterion_weight_source": "network",
+      "criterion_types": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "angle_floor_radians": 1e-06,
+      "tie_tolerance": 1e-10,
+      "balance_tolerance": 1e-06,
+      "balance_max_iterations": 1000,
+      "cognitive_tolerance": 1e-08,
+      "cognitive_max_iterations": 500,
+      "aco_seed": 42,
+      "aco_options": {
+        "alpha": 1.0,
+        "beta": 2.0,
+        "rho": 0.5,
+        "initial_pheromone": 0.1,
+        "max_iterations": 200,
+        "min_iterations": 20,
+        "patience": 30,
+        "improvement_tolerance": 1e-12,
+        "exact_threshold": 8,
+        "keep_log": false
+      },
+      "include_sequence": false,
+      "sequence_execution_status": "disabled",
+      "beta": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "expert_weight_source": "panel agreement heuristic; not validated expertise",
+      "expert_weights_used": [
+        0.32677165354330706,
+        0.33070866141732286,
+        0.3425196850393701
+      ],
+      "supplied_expert_weights": null,
+      "reliability_dimensions": null,
+      "input_sha256": "37c45899b05091b41db6bb64c3547ccfc1060e09fa138ee992c924fcf180d460",
+      "input_hash_scheme": "ordered scenario fields; sorted-key compact UTF-8 JSON; original linguistic spellings",
+      "environment": {
+        "python": "3.12.14",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.57-x86_64-with-glibc2.39"
+      }
+    },
+    "trial_records": [
+      {
+        "trial": 0,
+        "cell": [
+          0,
+          3,
+          2
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "EC",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "15fb76b75011aa3236ceb77bc4ee9f6a502d424283ec56e1d56929ec89cbed6a",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8419097620997718,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 1,
+        "cell": [
+          1,
+          2,
+          3
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "PM",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "c94c9e7e85b1ac837e55e5b68f82b4d4a4c50472d62ae78cfa04aa262fde3923",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8622335491257098,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 2,
+        "cell": [
+          0,
+          3,
+          0
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "132ad662bf064a9b7cea90dc0306732b397ae1228d38103172cf5ba054aae5f0",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8377101455902295,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 3,
+        "cell": [
+          1,
+          4,
+          2
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "0cd88cbbb0f5c6b6fcc60a7542640dfcb1a6b516f6e5aa09fccc7c476302922c",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.816623768797058
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 4,
+        "cell": [
+          2,
+          3,
+          2
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "380d6a064d5c962422b71b090f82c7ca06b40fad38020752a2e721d418e70aa1",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8371591121621743,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 5,
+        "cell": [
+          2,
+          2,
+          2
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "54802044ebc829921eb8794afa1b6e11371d49ae699fcde96f0abd56ae630cd3",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8576795134461817,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 6,
+        "cell": [
+          0,
+          4,
+          3
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "PM",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "c01f05131edbab1374d00f0cff846dc329af9900ce08886fa2a307a478922004",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8165746211587135
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 7,
+        "cell": [
+          1,
+          4,
+          2
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "6a848462b2fbb9f14a0753007cb5e57bc016fb968c5e77657056b8fcb6b0d696",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.7919399794305721
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 8,
+        "cell": [
+          1,
+          1,
+          0
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "EE",
+        "original_term": "M",
+        "original_level": 3,
+        "new_term": "S",
+        "input_sha256": "b6d51c4a871943de1b21ffeb4c32364886233785ccdf1fc8f3ea79a9d1ae7f49",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.8009538013087383,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 9,
+        "cell": [
+          2,
+          0,
+          3
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "PM",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "cba2e4bf546a9d0aa48552789859bdb3253344b1ebe53725bbd1ea3534900227",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.8020623652505987,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 10,
+        "cell": [
+          0,
+          3,
+          0
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "0d01906cec759ddc0b406a2065d324441e9ed357235252df8a3a5e75c8208b66",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8623308701288523,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 11,
+        "cell": [
+          2,
+          1,
+          0
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "EE",
+        "original_term": "M",
+        "original_level": 3,
+        "new_term": "S",
+        "input_sha256": "eb2faeb1f1634dbfedb40b0810e5ac66f70fb3a8ac38acbd4dc5320e76a10be0",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.8014729129706972,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 12,
+        "cell": [
+          1,
+          4,
+          2
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "0cd88cbbb0f5c6b6fcc60a7542640dfcb1a6b516f6e5aa09fccc7c476302922c",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.816623768797058
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 13,
+        "cell": [
+          2,
+          0,
+          1
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "ADC",
+        "original_term": "M",
+        "original_level": 3,
+        "new_term": "L",
+        "input_sha256": "90f67f2abd56e0af89f3ed24ef07f647494991f724d4c40ce79c00ccbab4219e",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7742442734192005,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 14,
+        "cell": [
+          1,
+          0,
+          2
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "e03932f99f6e2f208f7d9e0a8073d7360def46be8544c422fa5046d48237bba4",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7769344336623277,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 15,
+        "cell": [
+          2,
+          3,
+          3
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "PM",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "af74f61b79b95df617c9f73a9f4eb6a5cbb54ea153dc9a2f199766c3bd75494f",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8413431804466053,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 16,
+        "cell": [
+          2,
+          1,
+          3
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "PM",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "fe5ee9a1ac0b26a6c86b223ceb68a949ca0fceba649d9a1447663829d5af6e54",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7713979985329393,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 17,
+        "cell": [
+          0,
+          4,
+          1
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "ADC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "e3fc7ce0d6a4025df0432fb4d2069a6e21df3176fb6b942af0b72379f677597c",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.7920734388684241
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 18,
+        "cell": [
+          1,
+          3,
+          0
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "EE",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "f3d18a844efb0c5608d9b4ba04df30eb7ffd6204575576c639af447c75fb36d9",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8416900016652478,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 19,
+        "cell": [
+          1,
+          0,
+          2
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "e03932f99f6e2f208f7d9e0a8073d7360def46be8544c422fa5046d48237bba4",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7769344336623277,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 20,
+        "cell": [
+          0,
+          1,
+          2
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "EC",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "bb4f42c5226cddd2a62d5f8e8aa92f70ad41bd376bb11c69d9f49ba49ab3e789",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7762562019692343,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 21,
+        "cell": [
+          2,
+          4,
+          1
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "ADC",
+        "original_term": "M",
+        "original_level": 3,
+        "new_term": "L",
+        "input_sha256": "10d6800074413430c3a045ae29e6c38189882228c03bc054654486a255766b5b",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.7892498191874451
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 22,
+        "cell": [
+          2,
+          3,
+          2
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "380d6a064d5c962422b71b090f82c7ca06b40fad38020752a2e721d418e70aa1",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8371591121621743,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 23,
+        "cell": [
+          0,
+          3,
+          3
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "PM",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "405dbf56a599545430aab66a5826916a6f381bb2efb9d5d02b591419ba515127",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8418364703067349,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 24,
+        "cell": [
+          1,
+          4,
+          3
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "PM",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "2d5716379f9eeb2a12612866860e3d1817c4be2eaab6bfb4e081cdc7c140c03a",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.791836134673209
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 25,
+        "cell": [
+          2,
+          1,
+          0
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "EE",
+        "original_term": "M",
+        "original_level": 3,
+        "new_term": "S",
+        "input_sha256": "eb2faeb1f1634dbfedb40b0810e5ac66f70fb3a8ac38acbd4dc5320e76a10be0",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.8014729129706972,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 26,
+        "cell": [
+          1,
+          0,
+          3
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "PM",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "2e2c65bda7e245de966d898a1b7ba475bf029776a93e3ca22c2c90a9edcd38de",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7768305889049647,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 27,
+        "cell": [
+          2,
+          0,
+          3
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "PM",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "cba2e4bf546a9d0aa48552789859bdb3253344b1ebe53725bbd1ea3534900227",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.8020623652505987,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 28,
+        "cell": [
+          2,
+          3,
+          1
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "ADC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "4d40cf4f7107469becc3aed3cc2de663529a2dbff30bdc46ebf17f2b81346136",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8627528832629119,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 29,
+        "cell": [
+          0,
+          3,
+          2
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "EC",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "15fb76b75011aa3236ceb77bc4ee9f6a502d424283ec56e1d56929ec89cbed6a",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8419097620997718,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 30,
+        "cell": [
+          1,
+          2,
+          2
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "EC",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "18a1ec1331136f8ee93691e308f2f5cf6dd9d862503dd394a5737f287a2ae120",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8623077239523977,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 31,
+        "cell": [
+          0,
+          0,
+          0
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "EE",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "b8ac3627d5743c5f8269d8f62ab3ca0915ef1098c59fa465fbde79cf068cfd22",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7810746755683515,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 32,
+        "cell": [
+          0,
+          2,
+          2
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "EC",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "1d3732acce3cc5ccc5380d6e28ca46d2c98aebde02b5e1e31faa6e55c34091e0",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8624301633837791,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 33,
+        "cell": [
+          1,
+          2,
+          3
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "PM",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "c94c9e7e85b1ac837e55e5b68f82b4d4a4c50472d62ae78cfa04aa262fde3923",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8622335491257098,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 34,
+        "cell": [
+          1,
+          0,
+          3
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "PM",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "1181748f1128a93dc59a2b26222a44fcd06cee5c16da9765341e9db23e794d98",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.8016923978555015,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 35,
+        "cell": [
+          1,
+          2,
+          2
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "EC",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "18a1ec1331136f8ee93691e308f2f5cf6dd9d862503dd394a5737f287a2ae120",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8623077239523977,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 36,
+        "cell": [
+          0,
+          2,
+          3
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "PM",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "5664dd6fc4a0dab7d7a0942b0d870f4a3cf9057421e85abc366640bd6f5328e9",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8623568715907423,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 37,
+        "cell": [
+          0,
+          3,
+          0
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "132ad662bf064a9b7cea90dc0306732b397ae1228d38103172cf5ba054aae5f0",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8377101455902295,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 38,
+        "cell": [
+          1,
+          4,
+          0
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "cff6933606cda954b40e30192315138a257d59a0d140e052ea7e2fc2d05b4653",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.7918037300261725
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 39,
+        "cell": [
+          1,
+          4,
+          3
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "PM",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "2d5716379f9eeb2a12612866860e3d1817c4be2eaab6bfb4e081cdc7c140c03a",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.791836134673209
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 40,
+        "cell": [
+          0,
+          4,
+          0
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "55df30799eab2c45d7ae1e781a90f7da5b44605d16f33fa7b308eab760c0f4dc",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8165974917854484
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 41,
+        "cell": [
+          0,
+          4,
+          1
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "ADC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "e3fc7ce0d6a4025df0432fb4d2069a6e21df3176fb6b942af0b72379f677597c",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.7920734388684241
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 42,
+        "cell": [
+          1,
+          0,
+          2
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "47fba9443dd2a9848e84253c2605362bdd5fc01332ae460a10a9b0c0f7acec46",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.8016182230288135,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 43,
+        "cell": [
+          2,
+          4,
+          2
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "bbe4a34320a5dc000a20fc5107db8d6b43799c7f1ce4e759a9f4abad979d3058",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.7914257338187705
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 44,
+        "cell": [
+          1,
+          2,
+          3
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "PM",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "c94c9e7e85b1ac837e55e5b68f82b4d4a4c50472d62ae78cfa04aa262fde3923",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8622335491257098,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 45,
+        "cell": [
+          0,
+          0,
+          1
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "ADC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "f363c328471c6ed444ebd3dc4af157bde0e311e8b6782698d387695ae143ef4b",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7770678931001795,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 46,
+        "cell": [
+          0,
+          0,
+          3
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "PM",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "3e627db1212344e3c757b736c9bbed5b4cc17e89ea78ddbb7e6dcffaba160169",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.801569075390469,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 47,
+        "cell": [
+          2,
+          2,
+          2
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "54802044ebc829921eb8794afa1b6e11371d49ae699fcde96f0abd56ae630cd3",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8576795134461817,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 48,
+        "cell": [
+          2,
+          2,
+          3
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "PM",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "9c7b474ba1248aadd8ea2416a2fc8b6afab0b0650d9727fde764b27bfb87dd86",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8618635817306126,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 49,
+        "cell": [
+          0,
+          2,
+          2
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "EC",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "1d3732acce3cc5ccc5380d6e28ca46d2c98aebde02b5e1e31faa6e55c34091e0",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8624301633837791,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 50,
+        "cell": [
+          1,
+          2,
+          0
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "1a88ce01329a698caedf0d32c02d973ffed4ea5cc68bdd2986941601018b4368",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8580575096535838,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 51,
+        "cell": [
+          0,
+          1,
+          2
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "EC",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "bb4f42c5226cddd2a62d5f8e8aa92f70ad41bd376bb11c69d9f49ba49ab3e789",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7762562019692343,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 52,
+        "cell": [
+          1,
+          3,
+          1
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "ADC",
+        "original_term": "M",
+        "original_level": 3,
+        "new_term": "S",
+        "input_sha256": "e1d24f03d805978a67162c39411ac878ed2fcfd463eef41f7da8f191c28e6161",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8665095250993449,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 53,
+        "cell": [
+          0,
+          1,
+          0
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "16eb3786d61efc6e01b7cd990966556dc66b2809ee91687a4f86b3eb93596349",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7720565854596919,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 54,
+        "cell": [
+          2,
+          1,
+          3
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "PM",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "fe5ee9a1ac0b26a6c86b223ceb68a949ca0fceba649d9a1447663829d5af6e54",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7713979985329393,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 55,
+        "cell": [
+          2,
+          2,
+          1
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "ADC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "aee891972e91d3d8bb2e29e1a70237cfd466dd225e7a15cd3b5f9515172bae58",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8832732845469192,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 56,
+        "cell": [
+          2,
+          1,
+          3
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "PM",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "fe5ee9a1ac0b26a6c86b223ceb68a949ca0fceba649d9a1447663829d5af6e54",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7713979985329393,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 57,
+        "cell": [
+          2,
+          3,
+          1
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "ADC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "4d40cf4f7107469becc3aed3cc2de663529a2dbff30bdc46ebf17f2b81346136",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8627528832629119,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 58,
+        "cell": [
+          0,
+          0,
+          0
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "EE",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "b8ac3627d5743c5f8269d8f62ab3ca0915ef1098c59fa465fbde79cf068cfd22",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7810746755683515,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 59,
+        "cell": [
+          1,
+          4,
+          0
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "cff6933606cda954b40e30192315138a257d59a0d140e052ea7e2fc2d05b4653",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.7918037300261725
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 60,
+        "cell": [
+          2,
+          1,
+          2
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "a5277278dc6f8f8255c8bb8c74490cd413166ace1e3d64261015b58cf1052a02",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7715055520316367,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 61,
+        "cell": [
+          2,
+          2,
+          2
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "54802044ebc829921eb8794afa1b6e11371d49ae699fcde96f0abd56ae630cd3",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8576795134461817,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 62,
+        "cell": [
+          1,
+          4,
+          0
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "0832f90f57f615d33c55a70e6602badd3cc85059c2c67fc65e536ecfd925baa5",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8167210898002005
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 63,
+        "cell": [
+          1,
+          3,
+          2
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "fcdc955080675b66a8a96fef95cb4d2d844c22e2514362759d0ec6e9340864d5",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8376733577739761,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 64,
+        "cell": [
+          0,
+          3,
+          0
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "0d01906cec759ddc0b406a2065d324441e9ed357235252df8a3a5e75c8208b66",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8623308701288523,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 65,
+        "cell": [
+          0,
+          3,
+          2
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "EC",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "15fb76b75011aa3236ceb77bc4ee9f6a502d424283ec56e1d56929ec89cbed6a",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8419097620997718,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 66,
+        "cell": [
+          0,
+          3,
+          1
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "ADC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "4e439ed123c5c7dbdf133ca1fcd1606624f15b2b20c92bde3f5e0a74d2983e74",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8622618189705678,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 67,
+        "cell": [
+          0,
+          0,
+          1
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "ADC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "f363c328471c6ed444ebd3dc4af157bde0e311e8b6782698d387695ae143ef4b",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7770678931001795,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 68,
+        "cell": [
+          0,
+          3,
+          0
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "0d01906cec759ddc0b406a2065d324441e9ed357235252df8a3a5e75c8208b66",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8623308701288523,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 69,
+        "cell": [
+          0,
+          0,
+          2
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "d47c79a9a7ba20cded240a922672013a50ef5172cf5011bdb1591c32fb71bb2c",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.8014957835974321,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 70,
+        "cell": [
+          0,
+          1,
+          3
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "PM",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "a63ff50791f9a1987ee8a67a0091d3e8eb7e83cbdb0ebe09202acfb3d1640697",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7761829101761973,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 71,
+        "cell": [
+          2,
+          2,
+          1
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "ADC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "d89880b25572f796c34fcf5771df2260b4183cadc87c2936f4ec3cd2c8c88c2f",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8576397284865535,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 72,
+        "cell": [
+          1,
+          2,
+          1
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "ADC",
+        "original_term": "M",
+        "original_level": 3,
+        "new_term": "L",
+        "input_sha256": "02b29667f9ba6a842d055d0fb2a4206fc0ba2acf4de4963cfac00436846cfd91",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8560928759656693,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 73,
+        "cell": [
+          0,
+          4,
+          1
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "ADC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "e3fc7ce0d6a4025df0432fb4d2069a6e21df3176fb6b942af0b72379f677597c",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.7920734388684241
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 74,
+        "cell": [
+          1,
+          3,
+          0
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "EE",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "f3d18a844efb0c5608d9b4ba04df30eb7ffd6204575576c639af447c75fb36d9",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8416900016652478,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 75,
+        "cell": [
+          0,
+          1,
+          1
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "ADC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "6fd299d512cd760fb9c104825e905858f0f5e49b264d67dd9a5fdfe7075b277c",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7966082588400302,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 76,
+        "cell": [
+          1,
+          2,
+          3
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "PM",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "c94c9e7e85b1ac837e55e5b68f82b4d4a4c50472d62ae78cfa04aa262fde3923",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8622335491257098,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 77,
+        "cell": [
+          0,
+          2,
+          2
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "EC",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "1d3732acce3cc5ccc5380d6e28ca46d2c98aebde02b5e1e31faa6e55c34091e0",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8624301633837791,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 78,
+        "cell": [
+          1,
+          4,
+          1
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "ADC",
+        "original_term": "M",
+        "original_level": 3,
+        "new_term": "S",
+        "input_sha256": "946c7ffa99bc3da1fe81a40021a35a917607e4fb7a4b3512c2276c48ac8b2401",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8207761467559409
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 79,
+        "cell": [
+          0,
+          2,
+          2
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "EC",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "1d3732acce3cc5ccc5380d6e28ca46d2c98aebde02b5e1e31faa6e55c34091e0",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8624301633837791,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 80,
+        "cell": [
+          2,
+          2,
+          1
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SMRT",
+        "criterion_label": "ADC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "d89880b25572f796c34fcf5771df2260b4183cadc87c2936f4ec3cd2c8c88c2f",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8576397284865535,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 81,
+        "cell": [
+          1,
+          4,
+          0
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "0832f90f57f615d33c55a70e6602badd3cc85059c2c67fc65e536ecfd925baa5",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8167210898002005
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 82,
+        "cell": [
+          1,
+          0,
+          1
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "ADC",
+        "original_term": "M",
+        "original_level": 3,
+        "new_term": "S",
+        "input_sha256": "03efb0467ed2af1996e53b59229a149f33b4242672d88cc55d60c7f3709724aa",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.8057706009876964,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 83,
+        "cell": [
+          0,
+          0,
+          2
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "d47c79a9a7ba20cded240a922672013a50ef5172cf5011bdb1591c32fb71bb2c",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.8014957835974321,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 84,
+        "cell": [
+          0,
+          1,
+          0
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "3c66d528365161301cd54127d19649f504338377373752c866752b7a6f8961ec",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7966773099983149,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 85,
+        "cell": [
+          2,
+          3,
+          3
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "PM",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "af74f61b79b95df617c9f73a9f4eb6a5cbb54ea153dc9a2f199766c3bd75494f",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8413431804466053,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 86,
+        "cell": [
+          2,
+          1,
+          0
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "EE",
+        "original_term": "M",
+        "original_level": 3,
+        "new_term": "S",
+        "input_sha256": "eb2faeb1f1634dbfedb40b0810e5ac66f70fb3a8ac38acbd4dc5320e76a10be0",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.8014729129706972,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 87,
+        "cell": [
+          2,
+          4,
+          0
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "a8ff737d304887f34271161c8021de10314c13ad1c984af71ce4871b1b874ac2",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.7912846183642137
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 88,
+        "cell": [
+          0,
+          0,
+          2
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "EC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "d47c79a9a7ba20cded240a922672013a50ef5172cf5011bdb1591c32fb71bb2c",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.8014957835974321,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 89,
+        "cell": [
+          1,
+          1,
+          3
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "PM",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "27ad1b4950c151ec2f208ea41b48f7705ecf0cbf10974d87f05c2934dde05196",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7719159528860755,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 90,
+        "cell": [
+          2,
+          4,
+          1
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "ADC",
+        "original_term": "M",
+        "original_level": 3,
+        "new_term": "L",
+        "input_sha256": "10d6800074413430c3a045ae29e6c38189882228c03bc054654486a255766b5b",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.7892498191874451
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 91,
+        "cell": [
+          2,
+          3,
+          1
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "ADC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "4d40cf4f7107469becc3aed3cc2de663529a2dbff30bdc46ebf17f2b81346136",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8627528832629119,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 92,
+        "cell": [
+          1,
+          4,
+          1
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "ADC",
+        "original_term": "M",
+        "original_level": 3,
+        "new_term": "S",
+        "input_sha256": "946c7ffa99bc3da1fe81a40021a35a917607e4fb7a4b3512c2276c48ac8b2401",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8207761467559409
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 93,
+        "cell": [
+          2,
+          0,
+          0
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "360daf108fc4b7b5ecf298613e68dbf4a66bf5069c7f8cdbca8b18c70e5f2fa8",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.8020863380762124,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 94,
+        "cell": [
+          0,
+          1,
+          1
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "ADC",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "6fd299d512cd760fb9c104825e905858f0f5e49b264d67dd9a5fdfe7075b277c",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7966082588400302,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 95,
+        "cell": [
+          2,
+          0,
+          3
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "MNT",
+        "criterion_label": "PM",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "M",
+        "input_sha256": "d5a0f97c111077f78b50a0fd250f9667a9c7e3f8bde490e3c75af4777abdfe36",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7763126345518285,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 96,
+        "cell": [
+          2,
+          4,
+          3
+        ],
+        "expert_index": 2,
+        "expert_label": "expert_3",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "PM",
+        "original_term": "H",
+        "original_level": 5,
+        "new_term": "S",
+        "input_sha256": "18012642dfa072dd6f3925b02c8f7b23ee2715bb908bb75b664816705a991abb",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.7956098021032012
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 97,
+        "cell": [
+          0,
+          4,
+          0
+        ],
+        "expert_index": 0,
+        "expert_label": "expert_1",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "AI",
+        "criterion_label": "EE",
+        "original_term": "S",
+        "original_level": 4,
+        "new_term": "H",
+        "input_sha256": "55df30799eab2c45d7ae1e781a90f7da5b44605d16f33fa7b308eab760c0f4dc",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8165974917854484
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 98,
+        "cell": [
+          1,
+          1,
+          0
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "JTM",
+        "criterion_label": "EE",
+        "original_term": "M",
+        "original_level": 3,
+        "new_term": "S",
+        "input_sha256": "b6d51c4a871943de1b21ffeb4c32364886233785ccdf1fc8f3ea79a9d1ae7f49",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "JTM"
+          ],
+          [
+            "MNT"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.8009538013087383,
+          0.8725926361884335,
+          0.8520722349044262,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      },
+      {
+        "trial": 99,
+        "cell": [
+          1,
+          3,
+          1
+        ],
+        "expert_index": 1,
+        "expert_label": "expert_2",
+        "expert_label_scheme": "generated one-based positional label",
+        "alternative_label": "SCH",
+        "criterion_label": "ADC",
+        "original_term": "M",
+        "original_level": 3,
+        "new_term": "L",
+        "input_sha256": "48cbd815a72f549c1a8dfff3f0bd6e1779296c0d1cda7558a5b22c581775f47d",
+        "status": "success",
+        "rank_groups": [
+          [
+            "SMRT"
+          ],
+          [
+            "SCH"
+          ],
+          [
+            "AI"
+          ],
+          [
+            "MNT"
+          ],
+          [
+            "JTM"
+          ]
+        ],
+        "scores": [
+          0.7913333107927778,
+          0.7864186747738886,
+          0.8725926361884335,
+          0.835572474681662,
+          0.8063388565610222
+        ],
+        "diagnostics": {
+          "scoring_valid": true,
+          "criterion_weight_source": "network",
+          "consensus": {
+            "converged": true,
+            "residual": 9.068662334410504e-07,
+            "stop_reason": "residual_tolerance"
+          },
+          "criterion_network": {
+            "converged": true,
+            "residual": 4.105353834660264e-09,
+            "stop_reason": "fixed_point_residual"
+          },
+          "warnings": []
+        }
+      }
+    ],
+    "successful_trials": 100,
+    "failed_trials": 0,
+    "perturbation_status": "success",
+    "leave_one_out_status": "success",
+    "perturbation_skip_reason": null,
+    "leave_one_out_skip_reason": null
+  },
+  "heuristic": {
+    "optimal_cost_hits": 77,
+    "distinct_sequences": 4,
+    "first_node_counts": {
+      "JTM": 99,
+      "MNT": 1
+    },
+    "cost_min": 0.6818511091498178,
+    "cost_max": 0.7501779964869797
+  },
+  "timing_median": 6.930316500074696
+}
