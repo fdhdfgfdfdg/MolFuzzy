@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: Please cite MolFuzzy 2.0.10 using the authors, title, version and source
+  repository below.
+type: software
+title: MolFuzzy 2 A Python toolkit for validated fuzzy preference scoring and angular
+  traversal analysis
+version: 2.0.10
+date-released: '2026-11-03'
+license: MIT
+authors:
+- &id001
+  given-names: Ruobing
+  family-names: Wang
+  email: ruobing2@alumni.cmu.edu
+  orcid: https://orcid.org/0009-0006-7883-6248
+  affiliation: Khoury College of Computer Sciences, Northeastern University; College
+    of Engineering - Information Networking Institute, Carnegie Mellon University
+- given-names: Xingzhi
+  family-names: Wang
+  email: xingzhi2@alumni.cmu.edu
+  orcid: https://orcid.org/0000-0001-8895-0809
+  affiliation: College of Engineering - Information Networking Institute, Carnegie
+    Mellon University
+contact:
+- *id001
+abstract: Research software for validated fuzzy utility scoring, consensus diagnostics
+  and optional angular traversal. Version 2 changes the decision semantics of version
+  1.
+keywords:
+- fuzzy decision support
+- multi-criteria decision making
+- consensus
+- reproducibility
+repository-code: https://github.com/fdhdfgfdfdg/MolFuzzy
+url: https://github.com/fdhdfgfdfdg/MolFuzzy

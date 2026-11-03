@@ -1,0 +1,6 @@
+include LICENSE README.md CITATION.cff CHANGELOG.md requirements.txt AUTHORS.md codemeta.json requirements-validation-py312.txt requirements-validation-py39.txt
+recursive-include examples *.py *.json
+recursive-include tests *.py
+recursive-include docs *.md *.py *.png
+recursive-include validation *.json *.txt *.xml *.md
+recursive-include .github *.yml
