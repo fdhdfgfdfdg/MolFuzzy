@@ -1,0 +1,14 @@
+{
+  "criterion_labels": ["EE", "ADC", "EC", "PM"],
+  "alternative_labels": ["MNT", "JTM", "SMRT", "SCH", "AI"],
+  "criteria_matrices": [
+    [[null, "H", "H", "H"], ["M", null, "S", "S"], ["M", "H", null, "S"], ["H", "H", "S", null]],
+    [[null, "S", "H", "H"], ["H", null, "S", "S"], ["H", "H", null, "S"], ["S", "S", "H", null]],
+    [[null, "H", "H", "H"], ["S", null, "H", "S"], ["S", "H", null, "S"], ["S", "S", "H", null]]
+  ],
+  "decision_matrices": [
+    [["H", "S", "S", "S"], ["S", "S", "H", "H"], ["H", "S", "H", "H"], ["S", "S", "H", "H"], ["S", "S", "S", "S"]],
+    [["M", "M", "S", "S"], ["M", "M", "S", "S"], ["S", "M", "H", "H"], ["H", "M", "S", "S"], ["S", "M", "S", "S"]],
+    [["S", "M", "S", "S"], ["M", "M", "S", "S"], ["S", "S", "S", "H"], ["S", "S", "S", "H"], ["S", "M", "S", "H"]]
+  ]
+}
