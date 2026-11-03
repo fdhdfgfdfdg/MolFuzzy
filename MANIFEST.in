@@ -4,3 +4,5 @@ recursive-include tests *.py
 recursive-include docs *.md *.py *.png
 recursive-include validation *.json *.txt *.xml *.md
 recursive-include .github *.yml
+
+include .gitattributes

@@ -10,7 +10,7 @@ The five historical geometry normalizers cancel in reciprocal column normalizati
 
 ## Installation and quick start
 
-Python >=3.9 and NumPy >=1.24 are declared. Installed wheels are tested locally on Linux with Python 3.12/NumPy 2.3.5 and Python 3.9/NumPy 1.24.0. Windows and macOS are configured CI targets without recorded execution in this release. NumPy is the only mandatory dependency. From this directory:
+Python >=3.9 and NumPy >=1.24 are declared. Installed wheels are tested locally on Linux with Python 3.12/NumPy 2.3.5 and Python 3.9/NumPy 1.24.0. Windows and macOS are additional CI targets; consult the public workflow results for their current outcomes. NumPy is the only mandatory dependency. From this directory:
 
 ```bash
 python -m pip install .
@@ -234,8 +234,8 @@ The current README title, package version and distribution descriptions are chec
 | --- | --- | --- | --- |
 | Linux | 3.12 | 2.3.5 | Installed-wheel suite and CLI passed; release-validation/current-wheel-tests.txt |
 | Linux | 3.9 | 1.24.0 | Installed-wheel suite and CLI passed; release-validation/lower-wheel-tests.txt |
-| Windows | 3.9 and 3.12 | Resolver-selected | CI configured; not executed in this release |
-| macOS | 3.9 and 3.12 | Resolver-selected | CI configured; not executed in this release |
+| Windows | 3.9 and 3.12 | Resolver-selected | See public CI results; bundled wheel logs cover Linux |
+| macOS | 3.9 and 3.12 | Resolver-selected | See public CI results; bundled wheel logs cover Linux |
 
 The workflow supports manual dispatch and retains logs plus actual runtime versions as job artifacts, including on failure. See docs/CROSS_PLATFORM_VALIDATION.md for execution and acceptance criteria. Configuration alone is not a successful test result.
 

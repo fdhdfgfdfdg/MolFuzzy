@@ -1,5 +1,7 @@
 ## 2.0.10
 
+- Publication preflight: canonicalize document line endings in release checks, retain byte-exact module/evidence comparisons, enforce LF text checkouts, and run the Python 3.9 Linux job on Ubuntu 22.04. Add three platform-newline regressions; computational modules remain unchanged.
+
 - 3 November 2026 public release preparation: register the public GitHub repository and complete repository URLs and citation metadata. Computational modules remain unchanged.
 
 - 3 November 2026 release preparation: complete author, affiliation, ORCID and support metadata; preserve upstream license notice and credit.
