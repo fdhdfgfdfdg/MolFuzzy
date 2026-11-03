@@ -127,7 +127,7 @@ class DecisionPipeline:
         ranked=rank_alternatives(aggregated,chosen,self.alternative_labels,self.criterion_types,self.tie_tolerance)
         sequence=aco_sequence(aggregated,chosen,self.alternative_labels,self.geometry,seed=self.aco_seed,angle_floor=self.angle_floor,**self.aco_options) if self.include_sequence else None
         input_hash=scenario_hash(self.criterion_labels,self.alternative_labels,criteria_matrices,decision_matrices)
-        config={'version':'2.0.10','geometry':self.geometry,'geometry_effect':'reference scale cancels in NR',
+        config={'version':'2.0.11','geometry':self.geometry,'geometry_effect':'reference scale cancels in NR',
             'learning_rate':self.learning_rate,'criterion_weights_used':chosen.tolist(),
             'criterion_weight_source':'network' if self.supplied_criterion_weights is None else 'user',
             'criterion_types':list(self.criterion_types) if self.criterion_types is not None else [1]*n,
