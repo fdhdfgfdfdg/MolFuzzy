@@ -1,0 +1,1 @@
+Version 2.0.11 source tests: 252 passed in 2.10 seconds on 3 November 2026. Older validation results retain their original version and scope.
