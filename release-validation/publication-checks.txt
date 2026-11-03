@@ -1,8 +1,7 @@
-Public repository metadata: PASS
-Citation File Format 1.2.0 full schema: PASS
-Source, wheel and sdist release verification: PASS
-Rebuilt publication wheels: 252 tests and CLI JSON PASS on each local Linux environment
-Python 3.12.14 / NumPy 2.3.5; Python 3.9.25 / NumPy 1.24.0
-Computational modules unchanged from reviewed package: PASS
-License retained: MIT
-Public archive registration: pending
+Post-release citation annotations verified.
+SWHID: swh:1:rev:87731b4ba51614e31603f4a80e4e103c73a211c3
+Frozen public release: v2.0.10, commit 87731b4ba51614e31603f4a80e4e103c73a211c3
+All six CI jobs passed for the frozen release; all 252 tests and CLI JSON passed in both local Linux environments.
+Computational modules, tests and frozen validation evidence match that release byte-for-byte.
+CFF 1.2.0 full schema and rebuilt annotation distribution checks: PASS
+The main-branch distribution metadata includes archive identifiers; the published tag and download assets retain the fixed pre-archive package.
