@@ -1,7 +1,8 @@
 Public repository metadata: PASS
 Citation File Format 1.2.0 full schema: PASS
 Source, wheel and sdist release verification: PASS
-Rebuilt publication wheel: 249 tests and CLI JSON PASS (Linux/Python 3.12.14/NumPy 2.3.5)
+Rebuilt publication wheels: 252 tests and CLI JSON PASS on each local Linux environment
+Python 3.12.14 / NumPy 2.3.5; Python 3.9.25 / NumPy 1.24.0
 Computational modules unchanged from reviewed package: PASS
 License retained: MIT
 Public archive registration: pending
