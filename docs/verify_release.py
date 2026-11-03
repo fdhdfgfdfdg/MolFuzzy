@@ -10,11 +10,15 @@ import tarfile
 import zipfile
 
 def verify_documentation(version, readme, descriptions, sdist_readme):
+    # Metadata writers may use the host newline convention. Compare document
+    # text canonically while module and evidence checks below remain byte-exact.
+    normalize = lambda text: text.replace('\r\n', '\n').replace('\r', '\n')
+    readme = normalize(readme)
     if readme.splitlines()[0] != f"# MolFuzzy {version}":
         raise ValueError("README current version title mismatch")
-    if any(text.strip() != readme.strip() for text in descriptions):
+    if any(normalize(text).strip() != readme.strip() for text in descriptions):
         raise ValueError("distribution description differs from README")
-    if sdist_readme != readme:
+    if normalize(sdist_readme) != readme:
         raise ValueError("sdist README differs from source")
 
 

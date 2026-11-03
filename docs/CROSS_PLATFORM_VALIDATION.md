@@ -1,6 +1,6 @@
 # Cross-platform validation
 
-Windows and macOS have not been executed for this release. Local Linux results do not substitute for those platforms.
+Bundled release-validation logs cover local Linux runs. Consult the public Actions results for observed Windows and macOS outcomes; local Linux results do not substitute for those platforms.
 
 1. Place the complete source tree at the root of the intended GitHub repository.
 2. Open Actions, select tests and choose Run workflow. Push and pull-request events also trigger the matrix.
@@ -9,4 +9,4 @@ Windows and macOS have not been executed for this release. Local Linux results d
 5. Confirm the package comes from site-packages, every test passes, CLI JSON passes and returncode is zero. A missing artifact or failed job is not a pass.
 6. Only then update the release validation table and manuscript with the observed platform results.
 
-The workflow retains artifacts on failure. Build/setup failures may occur before evidence generation; inspect the Actions job log in that case. Running it requires an accessible GitHub repository with Actions enabled. This source archive does not supply or presume that repository.
+The workflow retains artifacts on failure. Build/setup failures may occur before evidence generation; inspect the Actions job log in that case. Running it requires an accessible GitHub repository with Actions enabled. The public repository is https://github.com/fdhdfgfdfdg/MolFuzzy. The Python 3.9 Linux lower-bound job uses Ubuntu 22.04 because the latest runner does not provide that end-of-life interpreter.
