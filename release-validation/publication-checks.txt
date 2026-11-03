@@ -1,7 +1,6 @@
-Post-release citation annotations verified.
-SWHID: swh:1:rev:87731b4ba51614e31603f4a80e4e103c73a211c3
-Frozen public release: v2.0.10, commit 87731b4ba51614e31603f4a80e4e103c73a211c3
-All six CI jobs passed for the frozen release; all 252 tests and CLI JSON passed in both local Linux environments.
-Computational modules, tests and frozen validation evidence match that release byte-for-byte.
-CFF 1.2.0 full schema and rebuilt annotation distribution checks: PASS
-The main-branch distribution metadata includes archive identifiers; the published tag and download assets retain the fixed pre-archive package.
+Version 2.0.11 release verification: PASS
+Source, wheel and sdist consistency: PASS
+Source tests: 252 passed on Linux / Python 3.12 / NumPy 2.3.5
+Installed-wheel tests and CLI JSON: 252 passed on Linux / Python 3.12 / NumPy 2.3.5
+Version 2.0.10 numerical and cross-platform records retain their historical scope.
+License: MIT
