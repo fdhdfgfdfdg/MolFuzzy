@@ -1,0 +1,8 @@
+Using Python 3.12.14 environment at: .wheel206
+Resolved 1 package in 2ms
+Prepared 1 package in 6ms
+Uninstalled 2 packages in 1ms
+Installed 1 package in 1ms
+ - molfuzzy==2.0.8 (from file:///workspace/scratch/2846ee56b920/release/molfuzzy-2.0.8/distributions/molfuzzy-2.0.8-py3-none-any.whl)
+ - molfuzzy==2.0.9 (from file:///workspace/scratch/2846ee56b920/release/molfuzzy-2.0.9/distributions/molfuzzy-2.0.9-py3-none-any.whl)
+ + molfuzzy==2.0.10 (from file:///workspace/scratch/2846ee56b920/release/molfuzzy-2.0.10/distributions/molfuzzy-2.0.10-py3-none-any.whl)
