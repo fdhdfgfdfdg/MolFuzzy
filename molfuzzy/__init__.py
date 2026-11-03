@@ -1,5 +1,5 @@
 """MolFuzzy 2: validated fuzzy preference scoring and traversal diagnostics."""
-__version__='2.0.10'
+__version__='2.0.11'
 from .mfv import MFV,WeightedTriple,GEOMETRIES,register_geometry
 from .pipeline import DecisionPipeline,PipelineResult
 from .ranking import rank_alternatives,RankingResult

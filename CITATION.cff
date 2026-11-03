@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-message: Please cite MolFuzzy 2.0.10 using the authors, title, version and source
+message: Please cite MolFuzzy 2.0.11 using the authors, title, version and source
   repository below.
 type: software
 title: MolFuzzy 2 A Python toolkit for validated fuzzy preference scoring and angular
   traversal analysis
-version: 2.0.10
+version: 2.0.11
 date-released: '2026-11-03'
 license: MIT
 authors:
@@ -32,9 +32,4 @@ keywords:
 - consensus
 - reproducibility
 repository-code: https://github.com/fdhdfgfdfdg/MolFuzzy
-url: https://github.com/fdhdfgfdfdg/MolFuzzy/releases/tag/v2.0.10
-commit: 87731b4ba51614e31603f4a80e4e103c73a211c3
-identifiers:
-- type: swh
-  value: swh:1:rev:87731b4ba51614e31603f4a80e4e103c73a211c3
-  description: Permanent source revision of the frozen v2.0.10 release
+url: https://github.com/fdhdfgfdfdg/MolFuzzy

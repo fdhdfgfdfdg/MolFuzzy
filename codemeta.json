@@ -2,7 +2,7 @@
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "name": "MolFuzzy 2",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "description": "Validated fuzzy preference scoring, consensus diagnostics and optional angular traversal analysis",
   "license": "https://spdx.org/licenses/MIT.html",
   "programmingLanguage": "Python",
@@ -61,9 +61,7 @@
   },
   "developmentStatus": "research beta",
   "codeRepository": "https://github.com/fdhdfgfdfdg/MolFuzzy",
-  "url": "https://github.com/fdhdfgfdfdg/MolFuzzy/releases/tag/v2.0.10",
+  "url": "https://github.com/fdhdfgfdfdg/MolFuzzy",
   "datePublished": "2026-11-03",
-  "issueTracker": "https://github.com/fdhdfgfdfdg/MolFuzzy/issues",
-  "identifier": "swh:1:rev:87731b4ba51614e31603f4a80e4e103c73a211c3",
-  "releaseNotes": "https://github.com/fdhdfgfdfdg/MolFuzzy/releases/tag/v2.0.10"
+  "issueTracker": "https://github.com/fdhdfgfdfdg/MolFuzzy/issues"
 }

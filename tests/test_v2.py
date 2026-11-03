@@ -183,7 +183,7 @@ def test_json_stdout_and_error_status(scenario,tmp_path,capsys):
     p=tmp_path/'s.json'; p.write_text(json.dumps(scenario))
     assert main(['run',str(p),'--json'])==0
     out=capsys.readouterr(); payload=json.loads(out.out)
-    assert payload['configuration']['version']=='2.0.10' and out.err==''
+    assert payload['configuration']['version']=='2.0.11' and out.err==''
     p.write_text('{"a":NaN}')
     assert main(['run',str(p),'--json'])==2
     out=capsys.readouterr(); assert out.out=='' and 'nonfinite' in out.err

@@ -12,7 +12,7 @@ source-210.txt is the supplied 2.0.10 source-test log; source-209.txt is older.
 The supplied build/installed-wheel logs under validation/ are historical records,
 not this run. The complete validation/ inventory is frozen into the rebuilt sdist.
 
-Current rebuilt-wheel test and packaging logs are in release-validation/ in the
+Historical 2.0.10 rebuilt-wheel test and packaging logs are in release-validation/ in the
 full ZIP, outside the sdist to avoid self-referential builds. Supplied post-build
 logs remain in release-validation/historical/. These bundled local logs do not include Windows or macOS. Remote CI outcomes
 are recorded separately in the public repository.
